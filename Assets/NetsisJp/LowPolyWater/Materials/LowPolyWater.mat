@@ -69,12 +69,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_20A4CED4: 0.01
+    - Vector1_20A4CED4: 0.05
     - Vector1_4E203474: 0.008
     - Vector1_9D7757B4: 0.01
     - Vector1_CC401893: 0.5
-    - Vector1_CDFEAADE: 0.008
-    - WaveScale: 1
+    - Vector1_CDFEAADE: 0.016
+    - WaveScale: 2
     - _AlphaClip: 0
     - _Blend: 0
     - _BorderFoamFrequency: 1
