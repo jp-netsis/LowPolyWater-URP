@@ -35,7 +35,7 @@ namespace jp.netsis.LowPolyWater
         private List<int> triangles = new List<int>();
         private List<Vector2> uvs = new List<Vector2>();
 
-        void Awake ()
+        void Awake()
         {
             hexMeshFilter = GetComponent<MeshFilter>();
             hexMeshRenderer = GetComponent<MeshRenderer>();
@@ -50,6 +50,8 @@ namespace jp.netsis.LowPolyWater
 
         void OnValidate()
         {
+            // Called Before "Awake()" when launching Unity
+            if (null == hexMesh) return;
             Create();
         }
 
